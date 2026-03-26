@@ -5,7 +5,7 @@ let duplicate = num.filter((item,index) =>
                 num.indexOf(item) !== index);
 console.log(duplicate);
 
-**************************************************
+// **************************************************
 
 // Remove Duplicate using filter method
 
