@@ -7,3 +7,24 @@ function reverseString(str) {
     }
   return reversed;
   }
+
+*************************************************
+
+// Reverse using the inbuilt methods.
+
+function reverseString(str) {
+return str.split("").reverse().join("");
+}
+
+*************************************************
+
+// Reverse Words of the sentence.
+
+Input : my name is vipul
+Output : ym eman si lupiv
+
+const reverseWords = str => 
+      str.split("")    
+         .map(word => word.split("").reverse().join("")
+         .join("");
+                         
