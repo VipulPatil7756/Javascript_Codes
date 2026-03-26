@@ -1,0 +1,21 @@
+// Print Duplicate
+
+let num = [1,2,1,3,4,3,5];
+let duplicate = num.filter((item,index) => 
+                num.indexOf(item) !== index);
+console.log(duplicate);
+
+**************************************************
+
+// Remove Duplicate using filter method
+
+let num = [1,2,1,3,4,3,5];
+let unique = num.filter((item,index) => 
+             num.indexOf(item) === index);
+console.log(unique);
+
+// Remove duplicate using set method
+
+let num = [1,2,1,3,4,3,5];
+let unique = [...new Set (num)];
+console.log(unique);
